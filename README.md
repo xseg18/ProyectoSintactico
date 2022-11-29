@@ -1,6 +1,4 @@
-*ADVERTENCIA*
-Este proyecto está dvidido en 2 partes: ANTLR y CUP. La parte hecha en CUP funciona correctamente, sin embargo ANTLR no. 
-El error trata que se queda enciclado al tratar de analizar el código. Se cree que es por una mala identificación de tokens.
+
 
 1. ¿Que tipo de analizador es generado por CUP y por ANTLR?
 ANTLR4 genera bottom-up LL* y Cup genera top-down LALR
