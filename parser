@@ -1,0 +1,2 @@
+#!/bin/bash
+java -jar lexer-chilero/target/lexer-chilero-1.0-SNAPSHOT-jar-with-dependencies.jar $* | java -jar parser-chilero-antlr/target/parser-chilero-antlr-1.0-SNAPSHOT-jar-with-dependencies.jar $*
